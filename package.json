@@ -1,0 +1,20 @@
+{
+  "name": "eat-da-burger",
+  "version": "1.0.0",
+  "description": "node express app that serves as a burger logger using mysql as a database and handlebars to render an html page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmoncayo/burger.git"
+  },
+  "author": "Matt Moncayo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmoncayo/burger/issues"
+  },
+  "homepage": "https://github.com/mmoncayo/burger#readme"
+}
