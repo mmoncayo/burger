@@ -7,20 +7,41 @@
     <meta http-equiv="Content-Language" content="en">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../public/assets/css/burgers_style.css" type="text/css" />
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="/assets/css/burgers_style.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+        integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
     <title>Eat-Da-Burger!</title>
 </head>
+
+<!-- nav bar for the title of the page -->
+<nav class="navbar bg-dark">
+    <img src="/assets/images/burger.png" height=300px width=300px class="d-inline-block align-top mx-auto"
+        alt="burger_picture">
+</nav>
+<!-- header for the top of the page with the title  -->
+<header>
+    <h1>Eat-Da-Burger</h1>
+</header>
 
 <body>
 
     {{{ body }}}
 
-    <footer class="footer">
-        <div class="container">
-            <small>Copyright &copy; 2020 Matt Moncayo</small>
+    <!-- section to add a new burger -->
+    <div class="row">
+        <div class="col">
+            <div class="add-burger">
+                <form class="addBurger">
+                    <div class="form-group">
+                        <input type="text" id="burger"></input>
+                        <br>
+                        <button type="submit" id="submitBtn">Add a Burger!  <i class="fas fa-hamburger"></i></button>
+                    </div>
+                </form>
+            </div>
         </div>
-    </footer>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
@@ -29,7 +50,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
-    <script src="../../public/assets/js/burgers.js"></script>
+    <script src="/assets/js/burgers.js"></script>
 </body>
 
 </html>
