@@ -1,5 +1,7 @@
 ## Schema
 
+-- drops database if it already exists
+DROP DATABASE IF EXISTS burgers_db;
 -- creates database called burgers_db
 CREATE DATABASE burgers_db;
 
@@ -14,3 +16,5 @@ CREATE TABLE burgers(
   devoured BOOLEAN,
   PRIMARY KEY (id)
 );
+
+SELECT * FROM burgers;
