@@ -1,29 +1,118 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f7c554;
+    font-family: "Helvetica";
+    max-width: 800px;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    color:#ed1c24;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    padding: 15px;
+}
+
 html {
     position: relative;
     min-height: 100%;
 }
 
-body {
-    margin-bottom: 45px;
+span {
+    width: 40px;
+    background-color: white;
 }
 
-.card-header {
-    background-color: rgb(230, 98, 10);
-    color: #fff;
+ul {
+    list-style-type: none;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    height: 45px;
+#burger {
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
-    width: 100%;
-    background-color: #343A40;
-    border-top: 5px solid rgb(230, 98, 10);
+    margin-bottom: 10px;
+    font-size: 16px;
 }
 
-footer small {
-    line-height: 40px;
-    color: rgb(231, 171, 18);
-    font-size: 12px;
+#submitBtn {
+    height: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    background-color: red;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+.column {
+     float: left;
+     width: 50%;
+}
+
+.row:after {
+     content: "";
+     display: table;
+     clear: both;
+}
+
+.add-burger {
+     margin: auto;
+     text-align: center;
+}
+
+.addBurger {
+    margin: 15px;
+}
+
+.burger-item {
+     margin-bottom: 20px;
+     line-height: 25px;
+     background-color: white;
+     padding: 5px;
+     border-radius: 4px;
+}
+
+.devourBtn {
+     float: right;
+     height: 25px;
+     margin-left: 5px;
+     width: 30%;
+     border-radius: 8px;
+     border: none;
+     background-color: #8dc63f;
+     color: white;
+
+}
+
+.devoured-burger {
+    margin-bottom: 20px;
+    line-height: 25px;
+    background-color: #8dc63f;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.notDevoured {
+     margin-right: 50px;
 }
